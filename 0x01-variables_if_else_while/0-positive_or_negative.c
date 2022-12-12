@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- *main - generates a number and labels it positive ,zero or negative
- *return - Always zero
+ /**
+ * main - Entry point
+ *
+ * return: Always 0 (success)
  */
 
 int main(void)
@@ -13,7 +14,7 @@ int main(void)
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
-					/* your code goes there */
+/* your code goes there */
 				if (n > 0)
 				{
 					printf("%d is positive\n", n);
