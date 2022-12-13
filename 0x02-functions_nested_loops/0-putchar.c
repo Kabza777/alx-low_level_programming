@@ -1,7 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
+ *
+ * return: Always 0 (success)
  */
 
 int main(void)
@@ -9,21 +11,22 @@ int main(void)
 	int letter;
 
 	letter = '_';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'p';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'u';
-	putchar(letter);
+	_putchar(letter);
 	letter = 't';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'c';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'h';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'a';
-	putchar(letter);
+	_putchar(letter);
 	letter = 'r';
-	putchar(letter);
-	printf("\n");
+	_putchar(letter);
+	letter = '\n';
+	_putchar(letter);
 	return (0);
 }
