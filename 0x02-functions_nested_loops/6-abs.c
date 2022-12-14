@@ -4,9 +4,9 @@
  * @c: The number to be computed.
 . * Return: absolute value of num or 0.
  */
-int _abs(int)
+
+int _abs(int c)
 {
-	int c(0);
 	if (c < 0)
 	{
 		int abs_val;
